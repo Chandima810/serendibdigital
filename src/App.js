@@ -301,13 +301,14 @@ cultural abstraction, and nature-inspired line work.</p>
   <p>
   <strong>Company web:</strong>{" "}
   <a
-    href="http://www.solutionswaterminds.om/in/chandima-gunasena"
+    href="https://solutionswaterminds.com"
     target="_blank"
     rel="noopener noreferrer"
   >
-    Company Web
+    solutionswaterminds.com
   </a>
 </p>
+
 
 <p>
   <strong>WhatsApp:</strong>{" "}
