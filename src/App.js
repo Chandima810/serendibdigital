@@ -253,7 +253,7 @@ cultural abstraction, and nature-inspired line work.</p>
           className="section gallery"
           ref={(el) => (sectionsRef.current[7] = el)}
         >
-          <h2>Our Nursery</h2>
+          <h2>Image Gallery</h2>
           <div className="image-grid">
             {nurseryImages.map((src, index) => (
               <img
