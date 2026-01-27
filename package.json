@@ -1,15 +1,15 @@
 {
-  "name": "neat-solution-pitch",
+  "name": "serendibdigital",
   "version": "1.0.0",
   "private": true,
   "description": "",
-  "homepage": "https://incaceylon.com",
+  "homepage": "https://chandima810.github.io/serendibdigital",
   "bugs": {
-    "url": "https://github.com/Chandima810/neatsolutions/issues"
+    "url": "https://github.com/Chandima810/serendibdigital/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chandima810/neatsolutions.git"
+    "url": "git+https://github.com/Chandima810/serendibdigital.git"
   },
   "license": "ISC",
   "author": "",
