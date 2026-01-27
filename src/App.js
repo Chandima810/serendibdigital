@@ -97,9 +97,10 @@ export default function App() {
       <header className="header">
         <div className="brand">
           <img src={logo} alt="NEAT SOLUTION logo" className="logo" />
-          <h1>INCA CEYLON (PVT) LTD</h1>
+          <h1>Serendib Digital</h1>
         </div>
-        <p>Green Plant Project – Sustainable Approach to Green Development</p>
+        <p>Calm, minimalist art blending emotional storytelling,
+cultural abstraction, and nature-inspired line work.</p>
       </header>
 
       <main>
@@ -110,8 +111,10 @@ export default function App() {
         >
           <h2>Company Overview</h2>
           <p>
-            Inca Ceylon, was incorporated on 21st October 2024 as a subsidiary of Neat Solutions Pvt Ltd, has evolved into a forward-looking, climate-compliant company dedicated to eco-friendly green development. Building on the strong foundation of its founder, Inca Ceylon operates model plant nurseries serving both local and international landscaping markets. 
-<p>The Team Leader of the project, Cmde (Rtd) Tony Perera, a BSc. (Agriculture) graduate from University of Peradeniya is a leading horticulturist with experience in landscaping projects such as Arcade- Torrington square, Gregory lake– Nuwaraeliya,  Viharamahadevi Park– Colombo 07, provides his fulltime expertise for our sustainable cultivation, renewable energy integration, and climate-resilient practices, ensuring that every step of our growth contributes to a greener and more sustainable future.</p>
+            I create calm, meaningful visual art that blends minimalist design,
+    emotional storytelling, and subtle references to nature such as
+    rivers, trees, and flow-inspired line forms. 
+<p>Serendib Digital is led by an independent artist and designer whose work focuses on calm, minimalist visual expression. Drawing inspiration from nature, cultural memory, and emotional stillness, the practice explores themes of flow, balance, and human presence through restrained line work and thoughtful composition. Each piece is created with intention, emphasizing clarity, simplicity, and quiet emotional depth rather than decorative complexity.</p>
 
           </p>
         </section>
@@ -122,13 +125,13 @@ export default function App() {
         >
           <h2>Vision & Mission</h2>
           <p>
-            <strong>Vision:</strong> To become a leading global provider of
-            sustainable tropical and ornamental plants.
+            <strong>Vision:</strong> To create calm, timeless visual art that resonates
+    emotionally and brings balance, stillness, and meaning into everyday spaces.
           </p>
           <p>
-            <strong>Mission:</strong> To cultivate and supply high-quality,
-            climate-resilient plants using organic and sustainable practices
-            while meeting international standards.
+            <strong>Mission:</strong> To craft minimalist artworks that blend emotional
+    storytelling, cultural abstraction, and subtle nature-inspired line forms,
+    allowing viewers to experience clarity, connection, and quiet reflection.
           </p>
         </section>
 
@@ -140,11 +143,11 @@ export default function App() {
           <div className="text">
             <h2>Product Portfolio</h2>
             <ul>
-              <li>Export-standard tropical plants</li>
-              <li>Ornamental plants (Foliage & Flowering)</li>
-              <li>Australian grass varieties (Zoysia)</li>
-              <li>Malaysian grass varieties</li>
-              <li>Salt-tolerant plants for saline climates</li>
+              <li>Minimalist line art with emotional storytelling</li>
+              <li>Calm and spiritual wall art compositions</li>
+              <li>Nature-inspired abstract line work (trees, rivers, flow)</li>
+              <li>Cultural and symbolic minimalist illustrations</li>
+              <li>Custom artworks for personal, café, and contemplative spaces</li>
             </ul>
           </div>
           <div className="image-box">
@@ -163,13 +166,13 @@ export default function App() {
           ref={(el) => (sectionsRef.current[3] = el)}
         >
           <div className="text">
-            <h2>Production Standards</h2>
+            <h2>Creative Standards</h2>
             <ul>
-              <li>Sterilized coir dust as planting media</li>
-              <li>Compliance with National Plant Quarantine Service (Sri Lanka)</li>
-              <li>Pest, fungal, bacterial, and nematode-free</li>
-              <li>Organic-based fertilizers and agro-inputs</li>
-              <li>Sterilized pots and grow bags</li>
+              <li>Minimalist compositions guided by clarity and restraint</li>
+              <li>Emotion-first visual storytelling over decorative complexity</li>
+              <li>Symbolic line work inspired by nature, flow, and balance</li>
+              <li>Carefully considered use of negative space</li>
+              <li>Artwork created for calm, reflective, and contemplative spaces</li>
             </ul>
           </div>
           <div className="image-box">
@@ -188,12 +191,12 @@ export default function App() {
           ref={(el) => (sectionsRef.current[4] = el)}
         >
           <div className="text">
-            <h2>Sustainable Practices</h2>
+            <h2>Creative Values</h2>
             <ul>
-              <li>Organic fertilizers to protect ecosystems</li>
-              <li>Renewable energy to minimize carbon footprint</li>
-              <li>Sterilization for sustainable production</li>
-              <li>Socially responsible employment practices</li>
+              <li>Mindful creation with respect for balance and simplicity</li>
+              <li>Intentional use of minimal elements to reduce visual noise</li>
+              <li>Art shaped by natural rhythms, flow, and continuity</li>
+              <li>Ethical, independent creative practice rooted in care and presence</li>
             </ul>
           </div>
           <div className="image-box">
@@ -212,13 +215,13 @@ export default function App() {
           ref={(el) => (sectionsRef.current[5] = el)}
         >
           <div className="text">
-            <h2>Competitive Advantages</h2>
+            <h2>What Makes This Work Distinct</h2>
             <ul>
-              <li>Compliance with international phytosanitary regulations</li>
-              <li>Capability to fulfill bulk export orders</li>
-              <li>Climate-resilient plant varieties</li>
-              <li>Eco-friendly and sustainable inputs</li>
-              <li>Dedicated R&D for continuous improvement</li>
+              <li>A calm, minimalist visual language focused on emotional depth</li>
+              <li>Symbolic line work inspired by nature, flow, and continuity</li>
+              <li>Art designed for quiet, reflective, and contemplative spaces</li>
+              <li>Balance between cultural abstraction and universal simplicity</li>
+              <li>Custom-created pieces rather than mass-produced designs</li>
             </ul>
           </div>
           <div className="image-box">
@@ -236,12 +239,12 @@ export default function App() {
           className="section"
           ref={(el) => (sectionsRef.current[6] = el)}
         >
-          <h2>Target Markets</h2>
+          <h2>Who This Work Is For</h2>
           <ul>
-            <li>Export customers (Europe, Middle East, Asia-Pacific)</li>
-            <li>Local landscaping companies and developers</li>
-            <li>Government and private sector green projects</li>
-            <li>Eco-conscious home gardeners</li>
+            <li>Individuals seeking calm, meaningful wall art for personal spaces</li>
+            <li>Cafés, studios, and wellness spaces looking for quiet visual presence</li>
+            <li>Art collectors drawn to minimalist and symbolic compositions</li>
+            <li>Global clients interested in culturally inspired, contemporary line art</li>
           </ul>
         </section>
 
@@ -273,33 +276,57 @@ export default function App() {
   <h2>Contact Information</h2>
 
     <p>
-  <strong>Team Leader :</strong> +94 71 860 7433 / +94 76 785 0469
+  <strong>Founder :</strong> +94 71 628 7419 / +94 703 945 926
 </p>
 
 <p>
   <strong>Email:</strong>{" "}
-  <a href="mailto:inca@neatsolutions.asia">inca@neatsolutions.asia</a>
+  <a href="mailto:cpg810@gmail.com">cpg810@gmail.com</a>
 </p>
 
   <p>
-    <strong>Web:</strong>{" "}
-    <a href="https://incaceylon.com/" target="_blank" rel="noopener noreferrer">
-      incaceylon.com
+    <strong>Fiverr:</strong>{" "}
+    <a href="https://www.fiverr.com/s/dDxelZ0/" target="_blank" rel="noopener noreferrer">
+      Fiverr
     </a>
   </p>
 
   <p>
-    <strong>Web:</strong>{" "}
-    <a href="http://www.neatsolutions.asia" target="_blank" rel="noopener noreferrer">
-      www.neatsolutions.asia
+    <strong>Linkedin:</strong>{" "}
+    <a href="http://www.linkedin.com/in/chandima-gunasena" target="_blank" rel="noopener noreferrer">
+      linkedin
     </a>
   </p>
+  
+  <p>
+  <strong>Company web:</strong>{" "}
+  <a
+    href="http://www.solutionswaterminds.om/in/chandima-gunasena"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Company Web
+  </a>
+</p>
+
+<p>
+  <strong>WhatsApp:</strong>{" "}
+  <a
+    href="https://wa.me/qr/5AAQDEV2QPJQL1"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Chat on WhatsApp
+  </a>
+</p>
+
+
 </section>
 
       </main>
 
       <footer className="footer">
-        <p>© INCA CEYLON — Growing greener futures, sustainably.</p>
+        <p>© Serendib Digital — Calm, minimalist art inspired by balance and flow.</p>
       </footer>
 
       {/* Lightbox */}
