@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/serendibdigital/static/css/main.f65221bc.css",
-    "main.js": "/serendibdigital/static/js/main.50f7690d.js",
+    "main.js": "/serendibdigital/static/js/main.51e3f35b.js",
     "static/media/nursery1.jpg": "/serendibdigital/static/media/nursery1.a79a815d5a5014216432.jpg",
     "static/media/logo.png": "/serendibdigital/static/media/logo.d8c2b8e949b23ba9097f.png",
     "static/media/nursery6.jpg": "/serendibdigital/static/media/nursery6.33a0890384d2f35887fb.jpg",
@@ -16,10 +16,10 @@
     "static/media/expo.jpg": "/serendibdigital/static/media/expo.2dad89a5c9a6ac261dd7.jpg",
     "index.html": "/serendibdigital/index.html",
     "main.f65221bc.css.map": "/serendibdigital/static/css/main.f65221bc.css.map",
-    "main.50f7690d.js.map": "/serendibdigital/static/js/main.50f7690d.js.map"
+    "main.51e3f35b.js.map": "/serendibdigital/static/js/main.51e3f35b.js.map"
   },
   "entrypoints": [
     "static/css/main.f65221bc.css",
-    "static/js/main.50f7690d.js"
+    "static/js/main.51e3f35b.js"
   ]
 }
