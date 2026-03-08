@@ -99,9 +99,8 @@ export default function App() {
           <img src={logo} alt="NEAT SOLUTION logo" className="logo" />
           <h1>Serendib Digital</h1>
         </div>
-        <p>Serendib Digital – Kotte Kingdom Digital Art
-
-Minimalist digital artworks inspired by the heritage,
+        <p>Serendib Digital – Kotte Kingdom Digital Art </p> 
+        <p> Minimalist digital artworks inspired by the heritage,
 landscapes, and royal history of the ancient Kotte Kingdom.</p>
       </header>
 
