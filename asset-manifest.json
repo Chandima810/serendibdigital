@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/serendibdigital/static/css/main.f65221bc.css",
-    "main.js": "/serendibdigital/static/js/main.5609d5a1.js",
+    "main.js": "/serendibdigital/static/js/main.a92ba1b3.js",
     "static/media/coir.jpg": "/serendibdigital/static/media/coir.fbbff858013c782dab94.jpg",
     "static/media/organic.jpg": "/serendibdigital/static/media/organic.87c18d427bd7befe21dd.jpg",
     "static/media/nursery1.jpg": "/serendibdigital/static/media/nursery1.3f69412aba71af40a63b.jpg",
@@ -13,13 +13,13 @@
     "static/media/nursery4.jpg": "/serendibdigital/static/media/nursery4.c76208563f93ed0ac634.jpg",
     "static/media/nursery5.jpg": "/serendibdigital/static/media/nursery5.07441308cc4778e66ab6.jpg",
     "static/media/nursery6.jpg": "/serendibdigital/static/media/nursery6.33a0890384d2f35887fb.jpg",
-    "static/media/logo.png": "/serendibdigital/static/media/logo.ac551edb619cc1a84ac1.png",
+    "static/media/logo.png": "/serendibdigital/static/media/logo.755c3fdae0568dc951b0.png",
     "index.html": "/serendibdigital/index.html",
     "main.f65221bc.css.map": "/serendibdigital/static/css/main.f65221bc.css.map",
-    "main.5609d5a1.js.map": "/serendibdigital/static/js/main.5609d5a1.js.map"
+    "main.a92ba1b3.js.map": "/serendibdigital/static/js/main.a92ba1b3.js.map"
   },
   "entrypoints": [
     "static/css/main.f65221bc.css",
-    "static/js/main.5609d5a1.js"
+    "static/js/main.a92ba1b3.js"
   ]
 }
