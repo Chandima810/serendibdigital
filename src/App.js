@@ -99,8 +99,10 @@ export default function App() {
           <img src={logo} alt="NEAT SOLUTION logo" className="logo" />
           <h1>Serendib Digital</h1>
         </div>
-        <p>Calm, minimalist art blending emotional storytelling,
-cultural abstraction, and nature-inspired line work.</p>
+        <p>Serendib Digital – Kotte Kingdom Digital Art
+
+Minimalist digital artworks inspired by the heritage,
+landscapes, and royal history of the ancient Kotte Kingdom.</p>
       </header>
 
       <main>
@@ -111,9 +113,11 @@ cultural abstraction, and nature-inspired line work.</p>
         >
           <h2>Company Overview</h2>
           <p>
-            I create calm, meaningful visual art that blends minimalist design,
-    emotional storytelling, and subtle references to nature such as
-    rivers, trees, and flow-inspired line forms. 
+            Serendib Digital creates minimalist digital artworks inspired by the history, landscapes, and cultural memory of the Kotte Kingdom, the medieval capital of Sri Lanka.
+Through calm line work, symbolic compositions, and heritage storytelling, each artwork transforms historical locations, royal legends, and natural landscapes into contemporary digital wall art.
+The collection explores themes such as:
+the fortress city of Kottewetlands and water defenses of Diyawanna Oyaroyal processions and elephants temples and cultural life of the kingdom poetic landscapes described in Sandesha literature These artworks bring Sri Lanka’s medieval heritage into modern homes, galleries, and digital collections.
+
 <p>Serendib Digital is led by an independent artist and designer whose work focuses on calm, minimalist visual expression. Drawing inspiration from nature, cultural memory, and emotional stillness, the practice explores themes of flow, balance, and human presence through restrained line work and thoughtful composition. Each piece is created with intention, emphasizing clarity, simplicity, and quiet emotional depth rather than decorative complexity.</p>
 
           </p>
@@ -125,13 +129,10 @@ cultural abstraction, and nature-inspired line work.</p>
         >
           <h2>Vision & Mission</h2>
           <p>
-            <strong>Vision:</strong> To create calm, timeless visual art that resonates
-    emotionally and brings balance, stillness, and meaning into everyday spaces.
+            <strong>Vision:</strong> To become the leading digital art studio interpreting the heritage of the Kotte Kingdom through contemporary minimalist visual language.
           </p>
           <p>
-            <strong>Mission:</strong> To craft minimalist artworks that blend emotional
-    storytelling, cultural abstraction, and subtle nature-inspired line forms,
-    allowing viewers to experience clarity, connection, and quiet reflection.
+            <strong>Mission:</strong> To transform Sri Lanka’s historical landscapes, royal stories, and cultural symbols into calm, meaningful digital artworks that connect modern audiences with the legacy of the Kotte Kingdom.
           </p>
         </section>
 
@@ -327,7 +328,7 @@ cultural abstraction, and nature-inspired line work.</p>
       </main>
 
       <footer className="footer">
-        <p>© Serendib Digital — Calm, minimalist art inspired by balance and flow.</p>
+        <p>© Serendib Digital — Kotte Kingdom Digital Art</p>
       </footer>
 
       {/* Lightbox */}
