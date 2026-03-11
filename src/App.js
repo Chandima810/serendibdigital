@@ -310,7 +310,7 @@ the fortress city of Kottewetlands and water defenses of Diyawanna Oyaroyal proc
 </p>
 
 <p>
-  <strong>Youtube:</strong>{" "} 
+  <strong>YouTube:</strong>{" "} 
   <a
     href="https://www.youtube.com/@SolutionsWaterMinds"
     target="_blank"
