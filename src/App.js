@@ -359,7 +359,7 @@ function HomePage() {
           </p>
 
           <p>
-            <strong>Legal Support Page:</strong>{" "}
+            <strong>Non Legal Support Page:</strong>{" "}
             <Link to="/legal">Before You Go to a Lawyer</Link>
           </p>
         </section>
@@ -398,7 +398,7 @@ export default function App() {
             to="/legal"
             style={{ color: "white", textDecoration: "none" }}
           >
-            Legal Support
+            Non Legal Support
           </Link>
         </nav>
 

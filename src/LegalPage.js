@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function LegalPage() {
+export default function NonLegalSupportPage() {
   return (
     <div
       style={{
@@ -35,7 +35,7 @@ export default function LegalPage() {
               textTransform: "uppercase",
             }}
           >
-            Structured Legal Preparation Support
+            Structured Non Legal Preparation Support
           </p>
 
           <h1
@@ -100,7 +100,7 @@ export default function LegalPage() {
           <h2 style={titleStyle}>Services Offered</h2>
           <div style={gridStyle}>
             <div style={miniCardStyle}>
-              <h3 style={miniTitleStyle}>Case Chronology</h3>
+              <h3 style={miniTitleStyle}>Chronology</h3>
               <p style={textStyle}>
                 Clear timelines showing the sequence of key events, decisions,
                 and actions.
@@ -271,7 +271,7 @@ export default function LegalPage() {
 
             <div style={pricingCard}>
               <p style={pricingLabel}>Custom</p>
-              <h3 style={pricingTitle}>Full Case Preparation</h3>
+              <h3 style={pricingTitle}>Non Legal Full Case Preparation</h3>
               <p style={pricingPrice}>Custom Pricing</p>
 
               <ul style={pricingList}>
@@ -341,7 +341,10 @@ export default function LegalPage() {
           <p style={textStyle}>
             This service is focused on structured document preparation and case
             organization. It does not replace legal advice from a qualified
-            lawyer.
+            lawyer. This service provides document preparation support only. Not legal advice. 
+            Please consult a qualified lawyer before taking any legal action.
+            මෙය නීති උපදෙස් සේවාවක් නොවේ. මෙය ලේඛන සකස් කිරීමේ සහ අවබෝධ කිරීමේ සහාය සේවාවක් පමණි. නීති ක්‍රියාමාර්ග ගැනීමට 
+            පෙර නීතිඥවරයෙකු හමුවන්න.
           </p>
         </section>
       </main>
