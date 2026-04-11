@@ -3,6 +3,7 @@ import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./styles.css";
 import LegalPage from "./LegalPage";
 import CreativityPage from "./CreativityPage";
+import AboutPage from "./AboutPage";
 
 
 // Import logo and images
@@ -812,10 +813,12 @@ export default function App() {
   return (
     <Router>
       <div>
-        <nav
+       <nav
   style={{
-    padding: "16px 20px",
-    background: "#111",
+    width: "100%",
+    padding: "16px 40px",
+    boxSizing: "border-box",
+    background: "#0a0a0a",
     borderBottom: "1px solid rgba(255,255,255,0.08)",
     position: "sticky",
     top: 0,
@@ -824,16 +827,28 @@ export default function App() {
 >
   <div
     style={{
+      width: "100%",
       display: "flex",
       justifyContent: "space-between",
       alignItems: "center",
-      maxWidth: "1200px",
-      margin: "0 auto",
+      gap: "20px",
+      overflow: "hidden",
     }}
   >
-    <div style={{ color: "#fff", fontWeight: "bold", fontSize: "1rem" }}>
+    <Link
+      to="/"
+      style={{
+        color: "#e6c36a",
+        fontWeight: "bold",
+        fontSize: "1.15rem",
+        textDecoration: "none",
+        letterSpacing: "1px",
+        whiteSpace: "nowrap",
+        flexShrink: 0,
+      }}
+    >
       Serendib Digital
-    </div>
+    </Link>
 
     {isMobile ? (
       <button
@@ -846,16 +861,26 @@ export default function App() {
           borderRadius: "8px",
           cursor: "pointer",
           fontSize: "1rem",
+          flexShrink: 0,
         }}
       >
         ☰
       </button>
     ) : (
-      <div style={{ display: "flex", gap: "20px" }}>
+      <div
+        style={{
+          display: "flex",
+          gap: "24px",
+          alignItems: "center",
+          flexWrap: "nowrap",
+          justifyContent: "flex-end",
+        }}
+      >
         <Link to="/" style={navLinkStyle}>Kotte Kingdom</Link>
         <Link to="/legal" style={navLinkStyle}>Non Legal Support</Link>
         <Link to="/industrial" style={navLinkStyle}>Industrial Support</Link>
         <Link to="/creativity" style={navLinkStyle}>Creativity Program</Link>
+        <Link to="/about" style={navLinkStyle}>About</Link>
       </div>
     )}
   </div>
@@ -863,8 +888,9 @@ export default function App() {
   {isMobile && menuOpen && (
     <div
       style={{
-        maxWidth: "1200px",
-        margin: "12px auto 0",
+        width: "100%",
+        boxSizing: "border-box",
+        marginTop: "12px",
         display: "flex",
         flexDirection: "column",
         gap: "12px",
@@ -882,6 +908,9 @@ export default function App() {
       <Link to="/creativity" onClick={() => setMenuOpen(false)} style={mobileNavLinkStyle}>
         Creativity Program
       </Link>
+      <Link to="/about" onClick={() => setMenuOpen(false)} style={mobileNavLinkStyle}>
+        About
+      </Link>
     </div>
   )}
 </nav>
@@ -892,6 +921,7 @@ export default function App() {
   <Route path="/legal" element={<LegalPage />} />
   <Route path="/industrial" element={<IndustrialPage />} />
   <Route path="/creativity" element={<CreativityPage />} />
+  <Route path="/about" element={<AboutPage />} />
 </Routes>
       </div>
     </Router>
