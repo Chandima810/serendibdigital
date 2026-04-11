@@ -795,53 +795,95 @@ const industrialSecondaryButton = {
   fontWeight: "bold",
   border: "1px solid rgba(120, 170, 140, 0.35)",
 };
+function useIsMobile(breakpoint = 768) {
+  const [isMobile, setIsMobile] = React.useState(window.innerWidth < breakpoint);
+
+  React.useEffect(() => {
+    const onResize = () => setIsMobile(window.innerWidth < breakpoint);
+    window.addEventListener("resize", onResize);
+    return () => window.removeEventListener("resize", onResize);
+  }, [breakpoint]);
+
+  return isMobile;
+}
 export default function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const isMobile = useIsMobile();
   return (
     <Router>
       <div>
-        <nav style={{ padding: "16px 24px", background: "#111" }}>
-  <Link
-    to="/"
+        <nav
+  style={{
+    padding: "16px 20px",
+    background: "#111",
+    borderBottom: "1px solid rgba(255,255,255,0.08)",
+    position: "sticky",
+    top: 0,
+    zIndex: 1000,
+  }}
+>
+  <div
     style={{
-      marginRight: "20px",
-      color: "white",
-      textDecoration: "none",
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center",
+      maxWidth: "1200px",
+      margin: "0 auto",
     }}
   >
-    Kotte Kingdom
-  </Link>
+    <div style={{ color: "#fff", fontWeight: "bold", fontSize: "1rem" }}>
+      Serendib Digital
+    </div>
 
-  <Link
-    to="/legal"
-    style={{
-      marginRight: "20px",
-      color: "white",
-      textDecoration: "none",
-    }}
-  >
-    Non Legal Support
-  </Link>
+    {isMobile ? (
+      <button
+        onClick={() => setMenuOpen(!menuOpen)}
+        style={{
+          background: "transparent",
+          border: "1px solid rgba(255,255,255,0.2)",
+          color: "#fff",
+          padding: "8px 12px",
+          borderRadius: "8px",
+          cursor: "pointer",
+          fontSize: "1rem",
+        }}
+      >
+        ☰
+      </button>
+    ) : (
+      <div style={{ display: "flex", gap: "20px" }}>
+        <Link to="/" style={navLinkStyle}>Kotte Kingdom</Link>
+        <Link to="/legal" style={navLinkStyle}>Non Legal Support</Link>
+        <Link to="/industrial" style={navLinkStyle}>Industrial Support</Link>
+        <Link to="/creativity" style={navLinkStyle}>Creativity Program</Link>
+      </div>
+    )}
+  </div>
 
-  <Link
-    to="/industrial"
-    style={{
-      marginRight: "20px",
-      color: "white",
-      textDecoration: "none",
-    }}
-  >
-    Industrial Support
-  </Link>
-
-  <Link
-    to="/creativity"
-    style={{
-      color: "white",
-      textDecoration: "none",
-    }}
-  >
-    Creativity Program
-  </Link>
+  {isMobile && menuOpen && (
+    <div
+      style={{
+        maxWidth: "1200px",
+        margin: "12px auto 0",
+        display: "flex",
+        flexDirection: "column",
+        gap: "12px",
+      }}
+    >
+      <Link to="/" onClick={() => setMenuOpen(false)} style={mobileNavLinkStyle}>
+        Kotte Kingdom
+      </Link>
+      <Link to="/legal" onClick={() => setMenuOpen(false)} style={mobileNavLinkStyle}>
+        Non Legal Support
+      </Link>
+      <Link to="/industrial" onClick={() => setMenuOpen(false)} style={mobileNavLinkStyle}>
+        Industrial Support
+      </Link>
+      <Link to="/creativity" onClick={() => setMenuOpen(false)} style={mobileNavLinkStyle}>
+        Creativity Program
+      </Link>
+    </div>
+  )}
 </nav>
 
 
@@ -855,3 +897,17 @@ export default function App() {
     </Router>
   );
 }
+
+const navLinkStyle = {
+  color: "white",
+  textDecoration: "none",
+  fontSize: "0.95rem",
+};
+
+const mobileNavLinkStyle = {
+  color: "white",
+  textDecoration: "none",
+  padding: "10px 12px",
+  background: "rgba(255,255,255,0.03)",
+  borderRadius: "8px",
+};
