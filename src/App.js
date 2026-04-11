@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./styles.css";
 import LegalPage from "./LegalPage";
+import CreativityPage from "./CreativityPage";
 
 
 // Import logo and images
@@ -799,43 +800,56 @@ export default function App() {
     <Router>
       <div>
         <nav style={{ padding: "16px 24px", background: "#111" }}>
-          <Link
-            to="/"
-            style={{
-              marginRight: "20px",
-              color: "white",
-              textDecoration: "none",
-            }}
-          >
-            Kotte Kingdom
-          </Link>
+  <Link
+    to="/"
+    style={{
+      marginRight: "20px",
+      color: "white",
+      textDecoration: "none",
+    }}
+  >
+    Kotte Kingdom
+  </Link>
 
-          <Link
-            to="/legal"
-            style={{
-              marginRight: "20px",
-              color: "white",
-              textDecoration: "none",
-            }}
-          >
-            Non Legal Support
-          </Link>
+  <Link
+    to="/legal"
+    style={{
+      marginRight: "20px",
+      color: "white",
+      textDecoration: "none",
+    }}
+  >
+    Non Legal Support
+  </Link>
 
-          <Link
-            to="/industrial"
-            style={{
-              color: "white",
-              textDecoration: "none",
-            }}
-          >
-            Industrial Support
-          </Link>
-        </nav>
+  <Link
+    to="/industrial"
+    style={{
+      marginRight: "20px",
+      color: "white",
+      textDecoration: "none",
+    }}
+  >
+    Industrial Support
+  </Link>
+
+  <Link
+    to="/creativity"
+    style={{
+      color: "white",
+      textDecoration: "none",
+    }}
+  >
+    Creativity Program
+  </Link>
+</nav>
+
 
      <Routes>
   <Route path="/" element={<HomePage />} />
   <Route path="/legal" element={<LegalPage />} />
   <Route path="/industrial" element={<IndustrialPage />} />
+  <Route path="/creativity" element={<CreativityPage />} />
 </Routes>
       </div>
     </Router>
