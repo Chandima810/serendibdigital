@@ -832,7 +832,11 @@ export default function App() {
           </Link>
         </nav>
 
-       <Route path="/industrial" element={<IndustrialPage />} />
+     <Routes>
+  <Route path="/" element={<HomePage />} />
+  <Route path="/legal" element={<LegalPage />} />
+  <Route path="/industrial" element={<IndustrialPage />} />
+</Routes>
       </div>
     </Router>
   );
