@@ -828,7 +828,7 @@ export default function App() {
               textDecoration: "none",
             }}
           >
-            Industrial Page
+            Industrial Support
           </Link>
         </nav>
 
