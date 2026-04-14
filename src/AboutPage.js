@@ -95,6 +95,17 @@ export default function AboutPage() {
                 0009-0002-7521-9683
               </a>
             </p>
+             <p>
+              Right Path:{" "}
+              <a
+                href="https://chandima810.github.io/dhamma/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={linkStyle}
+              >
+                View Path
+              </a>
+            </p>
           </div>
         </div>
 
