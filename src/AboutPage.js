@@ -63,7 +63,7 @@ export default function AboutPage() {
             <p>
               Facebook:{" "}
               <a
-                href="https://www.facebook.com/solutionswaterminds/"
+                href="https://www.facebook.com/solutionswaterminds//"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={linkStyle}
