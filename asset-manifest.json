@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f65221bc.css",
-    "main.js": "/static/js/main.1046da6c.js",
+    "main.js": "/static/js/main.4f927ef4.js",
     "static/media/coir.jpg": "/static/media/coir.fbbff858013c782dab94.jpg",
     "static/media/organic.jpg": "/static/media/organic.87c18d427bd7befe21dd.jpg",
     "static/media/nursery1.jpg": "/static/media/nursery1.3f69412aba71af40a63b.jpg",
@@ -16,10 +16,10 @@
     "static/media/logo.png": "/static/media/logo.755c3fdae0568dc951b0.png",
     "index.html": "/index.html",
     "main.f65221bc.css.map": "/static/css/main.f65221bc.css.map",
-    "main.1046da6c.js.map": "/static/js/main.1046da6c.js.map"
+    "main.4f927ef4.js.map": "/static/js/main.4f927ef4.js.map"
   },
   "entrypoints": [
     "static/css/main.f65221bc.css",
-    "static/js/main.1046da6c.js"
+    "static/js/main.4f927ef4.js"
   ]
 }
