@@ -61,14 +61,14 @@ export default function AboutPage() {
             <p>Phone: +94 777 181 928 / +94 716 287 419</p>
 
             <p>
-              Website:{" "}
+              Facebook:{" "}
               <a
-                href="https://solutionswaterminds.com/"
+                href="https://www.facebook.com/solutionswaterminds//"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={linkStyle}
               >
-                solutionswaterminds.com
+                solutionswaterminds
               </a>
             </p>
 
