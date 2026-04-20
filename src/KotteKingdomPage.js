@@ -330,7 +330,7 @@ export default function KotteKingdomPage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Solutions WaterMinds | ජල සම්පතයි කවි සිතිවිලියි
+              Solutions WaterMinds
             </a>
           </p>
 
