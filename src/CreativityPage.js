@@ -348,23 +348,27 @@ export default function CreativityPage() {
           </p>
 
           <div
-            style={{
-              textAlign: "center",
-              marginTop: "30px",
-            }}
-          >
-            <img
-              src="/Cover.png"
-              alt="SCSAF Cover"
-              style={{
-                width: "100%",
-                maxWidth: "850px",
-                borderRadius: "16px",
-                boxShadow: "0 10px 30px rgba(0,0,0,0.45)",
-                border: "1px solid rgba(155, 170, 230, 0.18)",
-              }}
-            />
-          </div>
+  style={{
+    textAlign: "center",
+    marginTop: "30px",
+  }}
+>
+  <img
+    src="/cover.png"
+    alt="cover"
+    style={{
+      display: "block",
+      width: "100%",
+      maxWidth: "900px",
+      height: "auto",
+      margin: "0 auto",
+      borderRadius: "16px",
+      boxShadow: "0 10px 30px rgba(0,0,0,0.45)",
+      border: "1px solid rgba(155, 170, 230, 0.18)",
+      objectFit: "contain",
+    }}
+  />
+</div>
 
           <div
             style={{
@@ -373,7 +377,7 @@ export default function CreativityPage() {
             }}
           >
             <a
-              href="/SCSAF.pdf"
+              href="/scsaf.pdf"
               target="_blank"
               rel="noopener noreferrer"
               style={{
