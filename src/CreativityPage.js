@@ -335,6 +335,65 @@ export default function CreativityPage() {
           </div>
         </section>
 
+                {/* RESEARCH PAPER */}
+        <section style={creativityCardStyle}>
+          <h2 style={creativityTitleStyle}>
+            Structured Cognitive Systems Activation Framework (SCSAF)
+          </h2>
+
+          <p style={creativityTextStyle}>
+            Explore the latest research and framework development related to
+            creativity activation, systems thinking, adaptive cognition,
+            sustainability-oriented innovation, and experiential learning.
+          </p>
+
+          <div
+            style={{
+              textAlign: "center",
+              marginTop: "30px",
+            }}
+          >
+            <img
+              src="/Cover.png"
+              alt="SCSAF Cover"
+              style={{
+                width: "100%",
+                maxWidth: "850px",
+                borderRadius: "16px",
+                boxShadow: "0 10px 30px rgba(0,0,0,0.45)",
+                border: "1px solid rgba(155, 170, 230, 0.18)",
+              }}
+            />
+          </div>
+
+          <div
+            style={{
+              textAlign: "center",
+              marginTop: "30px",
+            }}
+          >
+            <a
+              href="/SCSAF.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: "inline-block",
+                padding: "14px 30px",
+                background:
+                  "linear-gradient(135deg, #c7d3ff, #8f9fd6)",
+                color: "#0b1024",
+                textDecoration: "none",
+                borderRadius: "10px",
+                fontWeight: "bold",
+                fontSize: "1rem",
+                boxShadow: "0 8px 24px rgba(155,170,230,0.25)",
+              }}
+            >
+              View Full Research Paper
+            </a>
+          </div>
+        </section>
+
         {/* CONTACT */}
         <section style={creativityCardStyle}>
           <h2 style={creativityTitleStyle}>Contact</h2>
