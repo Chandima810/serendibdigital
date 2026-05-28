@@ -16,10 +16,10 @@ export default function AboutPage() {
         {/* HEADER */}
         <div style={{ textAlign: "center", marginBottom: "50px" }}>
           <h1 style={{ color: "#e6c36a", fontSize: "2.6rem" }}>
-            Serendib Digital
+            Solutions WaterMinds
           </h1>
           <p style={{ color: "#bbb", marginTop: "10px" }}>
-            Consultant Profile & Professional Experience
+            Consultant Profile | Innovation | Sustainability
           </p>
         </div>
 
@@ -41,7 +41,7 @@ export default function AboutPage() {
     style={{
       width: "260px",
       height: "320px",
-      objectFit: "contain",
+      objectFit: "cover",
       background: "#000",
       borderRadius: "12px",
       padding: "6px",
@@ -59,6 +59,17 @@ export default function AboutPage() {
 
             <p>Email: cpg810@gmail.com</p>
             <p>Phone: +94 777 181 928 / +94 716 287 419</p>
+            <p>
+  Website:{" "}
+  <a
+    href="https://solutionswaterminds.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={linkStyle}
+  >
+    solutionswaterminds.com
+  </a>
+</p>
 
             <p>
               Facebook:{" "}
@@ -120,7 +131,7 @@ export default function AboutPage() {
             <li>Renewable Energy Training Programme – Genso Power Technologies (Pvt) Ltd. (2018)</li>
             <li>Project Management - UNIDO Headquarters  (2019)</li>
             <li>Climate Adaptation Tools - Regional Resource Center for Asia and the Pacific Asian Institute of Technology (2023)</li>
-            <li>Consultant Development in Environmental Management Systems ISO 140001 - National Cleaner Production Center (2026)</li>
+            <li>Consultant Development in Environmental Management Systems ISO 14001 - National Cleaner Production Center (2026)</li>
           </ul>
             
             
@@ -154,14 +165,29 @@ export default function AboutPage() {
         <Section title="Past Experience Highlights">
           <ul>
             <li>AFOLU MRV Consultant – Ministry of Environment</li>
-            <li>Creativity workshop  – Lanka Association of Bulding Services Engineers (LABSE)</li>
+            <li>Creativity workshop  – Lanka Association of Building Services Engineers (LABSE)</li>
             <li>Creativity Workshop  – Samudradevi Balika Vidyalaya Nugegoda</li>
             <li>Creativity Workshop  – Industry Interaction Cell for Computing and Technology (IICFCT) University of Kelaniya</li>
-            <li>Creativity Workshop  – Gampaha Wickramarachchi University of Indigenous Medicine (GWUIM)
-</li>
+            <li>Creativity Workshop  – Gampaha Wickramarachchi University of Indigenous Medicine (GWUIM)</li>
+            <li>Creativity Workshop  – Department of Biosystems Technology, Faculty of Technology, University of Sri Jyewardenepura</li>
           </ul>
-        </Section>
+          
+  <div style={{ textAlign: "center", marginTop: "30px" }}>
+    <img
+      src={`${process.env.PUBLIC_URL}/creativityworkshop.png`}
+      alt="Mind Setting Model"
+      style={{
+        width: "100%",
+        maxWidth: "900px",
+        borderRadius: "16px",
+        boxShadow: "0 12px 35px rgba(0,0,0,0.7)",
+        border: "1px solid rgba(230,195,106,0.15)",
+      }}
+    />
+  </div>
 
+</Section>
+        
         {/* FOOTER */}
         <div
           style={{
@@ -173,9 +199,12 @@ export default function AboutPage() {
           }}
         >
           <p>
-            Solution WaterMinds, No 35/75, Dahamigama Mawatha, Palupelpita,
+            Solutions WaterMinds, No 35/75, Dahamigama Mawatha, Palupelpita,
             Radawana
           </p>
+          <p style={{ marginTop: "10px", color: "#777" }}>
+  Understanding Nature. Transforming Thinking. Building Systems.
+</p>
         </div>
       </div>
     </div>
